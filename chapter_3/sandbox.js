@@ -1,5 +1,5 @@
-let radius = 10
-const pi = 3.14
+// let radius = 10
+// const pi = 3.14
 
 
 // console.log(radius, pi);
@@ -23,7 +23,7 @@ const pi = 3.14
 
 
 
-let likes = 10;
+// let likes = 10;
 
 // result = likes + 10;
 
@@ -36,4 +36,64 @@ let likes = 10;
 // likes /= 10;
 
 
-console.log(likes);
+// console.log(likes);
+
+
+
+
+
+
+
+
+
+
+
+// NAN - not a number
+
+// console.log(5 / 'Helo');
+// console.log(5 * 'Helo');
+
+
+// let result = 'the blog has ' + likes + 'likes';
+
+// console.log(result);
+
+
+
+
+
+
+
+
+// template string 
+
+
+const title= 'Best reads of 2019';
+const author = 'Matrio';
+const likes = 30;
+
+
+
+// concatenation Way 
+
+// let result = 'The Blog called ' + title + 'by ' + author + 'has ' + likes + 'likes';
+
+// console.log(result);
+
+
+// template string way 
+
+// let result = `The Blog called ${title} by ${author} has ${likes} likes  `
+// console.log(result);
+
+
+// creating html templates 
+
+
+let html = `
+ <h2>${title}</h2>
+ <p>By ${author}</p>
+ <span> This Blog has ${likes} likes</span>
+`;
+
+console.log(html);
