@@ -1,6 +1,6 @@
 // Undefine 
 
- let age;
+//  let age;
 
 
  console.log(age , age + 3, `The age is ${age}`);
