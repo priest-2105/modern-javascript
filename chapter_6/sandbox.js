@@ -9,9 +9,9 @@ let email = 'luigi@thenetninja.co.uk';
 let names = ['mario', 'luigi', 'toad'];
 
 // let result = email.includes('@');
-// let result = names.includes('luigi');
+let result = names.includes('luigi');
 
-// console.log(result);
+console.log(result);
 
 
 
@@ -19,13 +19,13 @@ let names = ['mario', 'luigi', 'toad'];
 
 let age = 25;
 
-// console.log(age == 25);
-// console.log(age == 30);
-// console.log(age != 25);
-// console.log(age > 20);
-// console.log(age < 20);
-// console.log(age <= 25);
-// console.log(age >= 25);
+console.log(age == 25);
+console.log(age == 30);
+console.log(age != 25);
+console.log(age > 20);
+console.log(age < 20);
+console.log(age <= 25);
+console.log(age >= 25);
 
 
 let name = 'shaun';
