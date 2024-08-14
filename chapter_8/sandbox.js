@@ -10,6 +10,6 @@ let score = '100';
 // let result = Number('hello')
 // let result = String(50)
 // let result = Boolean(0)
-let result = Boolean('')
+let result = Boolean('0')
 
 console.log(result, typeof result);
