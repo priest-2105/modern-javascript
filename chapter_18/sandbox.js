@@ -18,5 +18,5 @@ if(true){
 }
 
 
-// console.log('outside code block', age, name, test);
+console.log('outside code block', age, name, test);
  
