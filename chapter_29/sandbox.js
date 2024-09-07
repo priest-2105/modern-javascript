@@ -1,11 +1,24 @@
 // This Key word
 
+// const blogs = [
+
+//     {title: 'why mac rules', likes: 30},
+//     {title: '10 things to make', likes: 50},
+// ]
+
+// console.log(blogs);
+
+
+
 let user = {
     name: 'crystal',
     age: 30,
     email: 'crystal@gmail.com',
     location: 'berlin',
-    blogs: ['why mac and cheese rules', '10 things to mae with marmite'],
+    blogs: [
+        {title: 'why mac rules', likes: 30},
+        {title: '10 things to make', likes: 50},
+    ],
     login: function(){
         console.log('user is Logged in');        
     },
@@ -14,11 +27,13 @@ let user = {
         
     },
     bloglist(){
-     console.log('this user has written the following');
-    this.blogs.forEach(blog => {
-    console.log(blog);     
-    }) 
         
+    this.blogs.forEach(blog => {
+        console.log(blog.title);
+        console.log(blog['likes']);
+        
+    })
+
     }
 }
 
