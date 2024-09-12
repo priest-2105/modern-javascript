@@ -18,6 +18,14 @@ console.log(parasEl);
 
 const content = document.querySelector('.content');
 
-content.innerHTML = '<h2>New Content</h2>';
+// content.innerHTML = '<h2>New Content</h2>';
 
-console.log(content.innerHTML);
+// console.log(content.innerHTML);
+
+
+const people = [ 'mario', 'luigi', 'yoshi'];
+
+
+people.forEach(person => {
+    content.innerHTML += `<p> ${person}`;
+})
