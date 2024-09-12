@@ -1,13 +1,26 @@
-// Geting an Element By ID 
+// // Geting an Element By ID 
 
 
-const titleEl = document.getElementById('page-title');
+// const titleEl = document.getElementById('page-title');
 
-console.log(titleEl);
+// console.log(titleEl);
 
 
-// Getting element by class name 
+// // Getting element by class name 
 
-const erros = document.getElementsByClassName('error');
+// const errors = document.getElementsByClassName('error');
 
-console.log(erros );
+
+// console.log(errors);
+
+
+
+
+// Get elemnt by tag name 
+
+
+const paraEl = document.getElementsByTagName('p');
+
+
+console.log(paraEl);
+console.log(paraEl[1]);
