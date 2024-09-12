@@ -11,3 +11,6 @@
 
  title.style.color = 'orange';
  title.style.margin = '50px';
+ title.style.fontSize = '90px';
+ title.style.fontSize = '';
+ 
